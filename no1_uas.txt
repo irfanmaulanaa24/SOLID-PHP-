@@ -1,0 +1,18 @@
+1. a) Prinsip single responsibility adalah prinsip pengembangan perangkat lunak yang memastikan bahwa setiap class hanya memiliki satu tugas utama saja
+      prinsip pemrograman komputer yang menyatakan bahwa setiap modul, 
+      kelas atau fungsi dalam program komputer harus memiliki tanggung jawab atas satu bagian dari fungsionalitas program itu, 
+      dan harus merangkum bagian itu.
+      keuntungan nya antara lain:
+	1. Prinsip ini bisa diterapkan untuk perhitungan hal yang memiliki banyak variasi
+	2. tidak terdampak pada semua fungsi. Cukup membuka kelas yang memiliki tanggungjawab tersebut untuk diperbaiki.ketika terjadi atau ada bug
+        3. penamaan class jadi lebih mudah
+        4. lebih mudah untuk mendaya-guna kode program
+        5. kode yang kita menjadi sangat jelas karena ditulis hanya focus pada satu hal
+        6 menurunkan tingkat kebergantungan antar class. Semakin tinggi kebergantungan, semakin susah untuk dimodifikasi
+   b) open/closed principle intinya adalah sebuah program akan dibuat tertutup untuk modifikasi, perubahan, namun terbuka untuk penambahan.
+      OCP menentukan bahwa entitas OOP harus terbuka untuk ekstensi, tetapi ditutup untuk modifikasi.
+      keuntungannya antara lain : 
+        1. Cocok untuk pengembangan suatu program multitasking
+        2. Mempermudah maintenance (pemeliharaan) code yang sudah ada
+        3. Membuat code yang kita buat menjadi reusable (dapat digunakan berkali-kali)
+        4. Memudahkan seseorang melakukan penambahan suatu fitur di suatu kode yang sangat banyak tanpa perlu mengubah kode sumbernya.
